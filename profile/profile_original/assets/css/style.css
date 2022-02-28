@@ -1,0 +1,341 @@
+.navbar{
+    font-family: 'Hina Mincho', serif;
+    background-color: darkcyan;
+    opacity: 0.9;
+}
+
+header .navbar .navbar-brand{
+    color: darkcyan!important;
+    width: 150px;
+    text-align: center;
+    margin: 0 50px 0 25px;
+    background: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white!important;
+    margin: 0 0 0 20px;
+    padding: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 1px solid white;
+}
+
+.navbar-light .navbar-toggler{
+    border-color:white!important;
+    border-width: 0.1rem;
+}
+
+.sns{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.twitter, .instagram{
+    color: white;
+    padding: 0 5px;
+}
+
+.twitter:hover, .instagram:hover{
+    color: whitesmoke;
+}
+
+.profile-wrapper{
+    position: relative;
+}
+
+.carousel {
+    position: absolute;
+    z-index: 0;
+    margin-bottom: 30px;
+}
+
+.profile-left{
+    position: absolute;
+    position: left;
+    z-index: 1;
+    top: 10%;
+    background-color: rgb(255, 255, 255,0.3);
+    padding: 5px;
+    margin: 0 10px;
+    width: 40%;
+}
+
+.profile-left>h2{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(30,30,30,1);
+    font-family: 'Hina Mincho', serif;
+    margin-bottom: 35px;
+    position: relative;
+    z-index: 0;
+}
+
+.profile-left>h3{
+    color: white;
+    font-family: 'Hina Mincho', serif;
+    font-family: 'Mrs Saint Delafield', cursive;
+    text-shadow: 0 0 10x white;
+    transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    position: absolute;
+    top: -3%;
+    left: 10%;
+    z-index: 1;
+}
+
+.profile-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-text>p{
+    color: white;
+    margin-right: 20px;
+    text-shadow: 3px 3px 3px rgba(30,30,30,1);
+    font-family: 'Hina Mincho', serif;
+    font-size: 1.8vw;
+}
+
+p{
+    font-size: 1.8vw;
+}
+
+.skill{
+    font-family: 'Hina Mincho', serif;
+    display: flex;
+    font-display: row;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+.skill-text{
+    width: 70%;
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.skill-text>h2{
+    text-shadow: 3px 3px 3px rgba(30,30,30,1);
+    background: linear-gradient(to left,darkcyan,white);
+    color: white;
+    padding: 5px;
+    margin-bottom: 35px;
+    position: relative;
+    z-index: 0;
+}
+
+.skill-text>h3{
+    font-family: 'Hina Mincho', serif;
+    font-family: 'Mrs Saint Delafield', cursive;
+    color: darkcyan;
+    transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    position: absolute;
+    left: 40%;
+    z-index: 1;
+}
+
+.skill-evaluation{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    color: darkcyan;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.language>li{
+    border-bottom: solid 0.1em darkcyan;
+    font-size: 1.3vw;
+}
+
+.star>li{
+    font-size: 1.4vw;
+}
+
+.not{
+    color: paleturquoise;
+}
+
+.favorite{
+    font-family: 'Hina Mincho', serif;
+	background: rgba(141, 206, 192, 0.4);
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.favorite>h2, .dream>h2{
+    color: darkcyan;
+    padding: 5px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.favorite>h3, .dream>h3{
+    font-family: 'Hina Mincho', serif;
+    font-family: 'Mrs Saint Delafield', cursive;
+    transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    color: darkcyan;
+    position: absolute;
+    left: 30%;
+    z-index: 1;
+}
+
+h5{
+    color: darkcyan;
+    border-bottom: 1px solid darkcyan;
+}
+
+.dream{
+    font-family: 'Hina Mincho', serif;
+	background: rgba(141, 206, 192, 0.4);
+    padding-bottom: 50px;
+}
+
+.addicted{
+    font-family: 'Hina Mincho', serif;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+.addicted-title{
+    width: 70%;
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.addicted-title>h2{
+    text-shadow: 3px 3px 3px rgba(30,30,30,1);
+    background: linear-gradient(to right,darkcyan,white);
+    color: white;
+    padding: 5px;
+    margin-bottom: 35px;
+    position: relative;
+    z-index: 0;
+}
+
+.addicted-title>h3{
+    font-family: 'Hina Mincho', serif;
+    font-family: 'Mrs Saint Delafield', cursive;
+    transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    position: absolute;
+    left: 5%;
+    z-index: 1;
+}
+
+.addicted-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.anime{
+    width: 40%;
+}
+
+.dream>h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dream-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    color: white;
+    background-color: darkcyan;
+    opacity: 0.9;
+    font-family: 'Hina Mincho', serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 680px){
+    .profile-left{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        width: 90%;
+        margin: 0;
+        
+    }
+
+    .carousel{
+        margin-bottom: 10px;
+    }
+
+    .profile-content>br{
+        display: none;
+    }
+
+    .profile-left>h3,
+    .skill-text>h3,
+    .favorite>h3,
+    .addicted-title>h3,
+    .dream>h3{
+        font-size: 15px;
+    }
+
+    .profile-left>h2,
+    .skill-text>h2,
+    .favorite>h2,
+    .addicted-title>h2,
+    .dream>h2{
+        font-size: 20px;
+    }
+
+    .anime>h4,
+    .dream>h4{
+        font-size: 15px;
+    }
+
+    .skill{
+        padding-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .favorite{
+        padding-bottom: 25px;
+        margin-bottom: 30px;
+    }
+
+    .favorite>h2, .dream>h2{
+        margin-bottom: 20px;
+    }
+
+    .addicted{
+        padding-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .dream{
+        padding-bottom: 20px;
+    }
+
+    .dream-list{
+        font-size: 0.5em;
+    }
+
+    footer{
+        font-size: 0.5em;
+    }
+}
+
+
+
